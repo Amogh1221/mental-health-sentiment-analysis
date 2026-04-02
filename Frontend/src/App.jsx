@@ -363,20 +363,24 @@ export default function App() {
              </div>
           </div>
 
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "40px", opacity: 0.6 }}>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "60px", opacity: 0.8, borderTop: "1px solid rgba(255,255,255,0.02)", paddingTop: "40px" }}>
              <div style={{ textAlign: "center" }}>
-                <div style={{ fontSize:"10px", color:"#475569", letterSpacing:"1.5px", marginBottom:"8px" }}>MODEL ARCHITECTURE</div>
-                <div style={{ fontFamily:"'JetBrains Mono', monospace", fontSize:"12px", color:"#CBD5E1" }}>RandomForest (N-Estimators: 100)</div>
+                <div style={{ fontSize:"10px", color:"#334155", letterSpacing:"1.5px", marginBottom:"8px" }}>MODEL PARAMETERS</div>
+                <div style={{ fontFamily:"'JetBrains Mono', monospace", fontSize:"11px", color:"#94A3B8" }}>RF · E200 · S6 · L1 · Gini</div>
              </div>
              <div style={{ textAlign: "center" }}>
-                <div style={{ fontSize:"10px", color:"#475569", letterSpacing:"1.5px", marginBottom:"8px" }}>FEATURE ENGINE</div>
-                <div style={{ fontFamily:"'JetBrains Mono', monospace", fontSize:"12px", color:"#CBD5E1" }}>TF-IDF · 3000 Dim · 1–3 N-Grams</div>
+                <div style={{ fontSize:"10px", color:"#334155", letterSpacing:"1.5px", marginBottom:"8px" }}>ACCURACY & F1</div>
+                <div style={{ fontFamily:"'JetBrains Mono', monospace", fontSize:"12px", color:"#10B981", fontWeight: 700 }}>91.90% · 91.78%</div>
              </div>
              <div style={{ textAlign: "center" }}>
-                <div style={{ fontSize:"10px", color:"#475569", letterSpacing:"1.5px", marginBottom:"8px" }}>CLOUD BACKEND</div>
+                <div style={{ fontSize:"10px", color:"#334155", letterSpacing:"1.5px", marginBottom:"8px" }}>FEATURE ENGINE</div>
+                <div style={{ fontFamily:"'JetBrains Mono', monospace", fontSize:"11px", color:"#94A3B8" }}>TF-IDF · 3000 DIM · LOG2</div>
+             </div>
+             <div style={{ textAlign: "center" }}>
+                <div style={{ fontSize:"10px", color:"#334155", letterSpacing:"1.5px", marginBottom:"8px" }}>INFERENCE INFRA</div>
                 <div style={{ display:"flex", alignItems:"center", gap:"8px", justifyContent: "center" }}>
-                   <div style={{ width:"6px", height:"6px", borderRadius:"50%", background:"#34D399", animation:"glow 2s infinite" }} />
-                   <span style={{ fontFamily:"'JetBrains Mono', monospace", fontSize:"12px", color:"#34D399" }}>HF Spaces API</span>
+                    <div style={{ width:"6px", height:"6px", borderRadius:"50%", background:"#34D399" }} />
+                    <span style={{ fontFamily:"'JetBrains Mono', monospace", fontSize:"12px", color:"#34D399" }}>HF Spaces API</span>
                 </div>
              </div>
           </div>
