@@ -4,8 +4,8 @@ An end-to-end Machine Learning application for multi-class mental health sentime
 
 ##  Live Demo
 
-- **Frontend:** *(Add your Vercel URL)*
-- **Backend API:** *(Add your Hugging Face URL)*
+- **Frontend:** [*Vercel*](https://ml-kohl-nine.vercel.app/)
+- **Backend API:** *[*Hugging_face*](https://huggingface.co/spaces/Amogh1221/sentiment-analysis-api)*
 
 ---
 
